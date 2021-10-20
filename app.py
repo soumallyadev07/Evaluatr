@@ -17,4 +17,4 @@ def evaluate():
     return render_template('index.html', eval='Evaluation for {} is {}'.format(mathExpr, ans))
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run()
